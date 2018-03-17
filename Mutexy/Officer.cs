@@ -4,12 +4,15 @@ using System.Threading;
 namespace Mutexy {
     public class Officer {
         public static int max_id = 1;
+        public static Object counterMonitor = new object();
         public static Random rand = new Random();
         public int Id { get; private set; }
         public volatile bool IsFree;
 
         public Officer() {
-            Id = max_id++;
+            lock (counterMonitor) {
+                Id = max_id++;
+            }
             IsFree = true;
         }
 

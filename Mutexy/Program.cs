@@ -9,7 +9,7 @@ namespace Mutexy {
     class Program {
         static void Main(string[] args) {
             int numberOfOfficers = 3;
-            int numberOfClients = 6;
+            int numberOfClients = 60;
 
             PostOffice postOffice = new PostOffice(numberOfOfficers);
             for(int c=0; c<numberOfClients; c++) {

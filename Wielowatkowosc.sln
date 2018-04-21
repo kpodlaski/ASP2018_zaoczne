@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wielowatkowosc", "Wielowatkowosc\Wielowatkowosc.csproj", "{65B04FEF-9DB0-44C5-AA4D-3E379A0F4D35}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuleWatkow", "PuleWatkow\PuleWatkow.csproj", "{C5553E1F-D6AC-4DCC-9A37-2988CF7CB28F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{68D068C8-AC57-4931-8C71-B18D83550A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kulki", "Kulki\Kulki.csproj", "{B339B154-4008-4220-ADDC-871581669692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{68D068C8-AC57-4931-8C71-B18D83550A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D068C8-AC57-4931-8C71-B18D83550A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D068C8-AC57-4931-8C71-B18D83550A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B339B154-4008-4220-ADDC-871581669692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B339B154-4008-4220-ADDC-871581669692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B339B154-4008-4220-ADDC-871581669692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B339B154-4008-4220-ADDC-871581669692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A9B2139-CE4E-49D7-8D28-8D42E63DA3EF}
 	EndGlobalSection
 EndGlobal
